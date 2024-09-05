@@ -1,6 +1,6 @@
-from mod_5.BusinessContact import BusinessContact
+from mod_5.card.BusinessContact import BusinessContact
 from faker import Faker
-from mod_5.BaseContact import BaseContact
+from mod_5.card.BaseContact import BaseContact
 
 def create_contacts(contact_type, quantity):
     contacts = []

@@ -1,5 +1,5 @@
 from faker import Faker
-from mod_5.BaseContact import BaseContact
+from mod_5.card.BaseContact import BaseContact
 
 
 class BusinessContact(BaseContact):
